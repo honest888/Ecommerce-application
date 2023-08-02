@@ -1,14 +1,14 @@
-# DỰ ÁN WEB THƯƠNG MẠI ĐIỆN TỬ
-Trang web thương mại điện tử được thiết lập để phục vụ một phần hoặc toàn bộ quy trình của hoạt động mua bán hàng hóa hay cung ứng dịch vụ, từ trưng bày giới thiệu hàng hóa, dịch vụ đến giao kết hợp đồng, cung ứng dịch vụ, thanh toán và dịch vụ sau bán hàng.
+# Ecommerce Application
+An e-commerce website is set up to serve a part or the whole process of buying and selling goods or providing services, from displaying and introducing goods and services to entering into contracts and providing services. service, payment and after-sale service.
 
 ## LINK DEMO
 <div align='center'>
 
-[Click vào đây để xem chi tiết](https://jira-project.herokuapp.com)
+[Demo](https://jira-project.herokuapp.com)
 
 </div>
 
-## HÌNH ẢNH DEMO
+## photo overview
 <p align='center'>
 <img src='pic/0.jpg'></img>
 </p>
@@ -20,7 +20,7 @@ Trang web thương mại điện tử được thiết lập để phục vụ m
 
 </div>
 
-## CẤU HÌNH API REFRESH TOKEN
+## API Token Refresh
 ```java
 // Refresh token
     @GetMapping(TOKEN_VIEW + REFRESH_VIEW)
@@ -61,26 +61,7 @@ Trang web thương mại điện tử được thiết lập để phục vụ m
     }
 ```
 
-## EER Diagram
-<p align='center'>
-<img src='design/EER%20Diagram.jpg'></img>
-</p>
-
-### THÀNH VIÊN
-Nhóm NOHIT gồm các thành viên:
-
-<img src='pic/2.jpg' align='right' width='21%' height='21%'></img>
-<div style='display:flex;'>
-
-- Nguyễn Đặng Trường An (team lead)
-- Trần Gia Bảo (đã rời nhóm)
-- Cao Đức Mạnh
-- Đặng Bá Quí (đã rời nhóm)
-- Nguyễn Tiến Đạt
-
-</div>
-
-### TÍCH HỢP
+## Integration
 <img src='pic/1.jpg' align='left' width='3%' height='3%'></img>
 <div style='display:flex;'>
 
